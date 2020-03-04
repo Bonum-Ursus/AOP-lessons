@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="05a84d45-5fc9-4cd9-bb02-7b0bafe32dff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/AccountDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/AccountDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MainDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MembershipDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MembershipDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MyAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MainDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MainDemoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MembershipDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MembershipDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MyAspect.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583225470739</updated>
       <workItem from="1583225480816" duration="4383000" />
-      <workItem from="1583303736614" duration="3127000" />
+      <workItem from="1583303736614" duration="3817000" />
     </task>
     <servers />
   </component>
@@ -115,26 +113,30 @@
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
     <state x="-920" y="298" key="#Notifications/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583303781809" />
+    <state x="-707" y="323" key="#com.intellij.ide.util.MemberChooser" timestamp="1583310719254">
+      <screen x="-1024" y="0" width="1024" height="1280" />
+    </state>
+    <state x="-707" y="323" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583310719254" />
     <state x="-732" y="394" key="FileChooserDialogImpl" timestamp="1583231781349">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
     <state x="-732" y="394" key="FileChooserDialogImpl/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583231781349" />
-    <state width="981" height="361" key="GridCell.Tab.0.bottom" timestamp="1583309161215">
+    <state width="981" height="361" key="GridCell.Tab.0.bottom" timestamp="1583310627594">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583309161215" />
-    <state width="981" height="361" key="GridCell.Tab.0.center" timestamp="1583309161215">
+    <state width="981" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583310627594" />
+    <state width="981" height="361" key="GridCell.Tab.0.center" timestamp="1583310627593">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583309161215" />
-    <state width="981" height="361" key="GridCell.Tab.0.left" timestamp="1583309161215">
+    <state width="981" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583310627593" />
+    <state width="981" height="361" key="GridCell.Tab.0.left" timestamp="1583310627593">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583309161215" />
-    <state width="981" height="361" key="GridCell.Tab.0.right" timestamp="1583309161215">
+    <state width="981" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583310627593" />
+    <state width="981" height="361" key="GridCell.Tab.0.right" timestamp="1583310627593">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583309161215" />
+    <state width="981" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583310627593" />
     <state x="-920" y="298" key="scopes" timestamp="1583226614221">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
