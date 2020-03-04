@@ -17,7 +17,7 @@ public class MainDemoApp {
         accountDAO.setName("Name");
         accountDAO.getName();
 
-        membershipDAO.addCustomer();
+        membershipDAO.addCustomer("New Customer added!");
 
         context.close();
     }
