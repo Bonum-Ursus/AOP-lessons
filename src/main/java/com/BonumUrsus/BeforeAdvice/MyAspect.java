@@ -6,11 +6,12 @@ import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
-
+@Order(1)
 public class MyAspect {
     public static Logger log = LoggerFactory.getLogger(MyAspect.class.getName());
 
@@ -27,7 +28,7 @@ public class MyAspect {
 //    @Before("execution(* add*())") ---> for any return type method which starts with "add"
 //    @Before("execution(public void addAccount(*))") ---> for one argument which has any type
 //    @Before("execution(public void addAccount(..))") ---> for 0 to many arguments which has any type
-    @Before("combiningPointcuts()") /**/
+    @Before("combiningPointcuts()")
     public void beforeAddAccountAdvise(){
         log.info("(Before) My aspect is working!!!");
     }
