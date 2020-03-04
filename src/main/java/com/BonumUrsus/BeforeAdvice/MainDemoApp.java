@@ -13,7 +13,7 @@ public class MainDemoApp {
 
         accountDAO.addAccount();
 
-        membershipDAO.addAccount();
+        membershipDAO.addCustomer();
 
         context.close();
     }
