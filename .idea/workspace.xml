@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a84d45-5fc9-4cd9-bb02-7b0bafe32dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/DemoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/ExecutableClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/OneMoreAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/TrafficFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MainDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MembershipDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MembershipDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MyAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MainDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MainDemoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MembershipDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MembershipDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MyAspect.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +46,25 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.MainDemoApp (1)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.BonumUrsus.AroundAdvice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ExecutableClass">
+    <configuration name="ExecutableClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.BonumUrsus.AroundAdvice.ExecutableClass" />
+      <module name="AOP-lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BonumUrsus.AroundAdvice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainDemoApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.BonumUrsus.BeforeAdvice.MainDemoApp" />
       <module name="AOP-lessons" />
@@ -86,6 +106,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutableClass" />
         <item itemvalue="Application.MainDemoApp (1)" />
         <item itemvalue="Application.MainDemoApp" />
         <item itemvalue="Application.Test" />
@@ -103,7 +124,8 @@
       <option name="presentableId" value="Default" />
       <updated>1583225470739</updated>
       <workItem from="1583225480816" duration="4383000" />
-      <workItem from="1583303736614" duration="5804000" />
+      <workItem from="1583303736614" duration="8206000" />
+      <workItem from="1583315520236" duration="2522000" />
     </task>
     <servers />
   </component>
@@ -123,22 +145,42 @@
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
     <state x="-732" y="394" key="FileChooserDialogImpl/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583231781349" />
-    <state width="981" height="361" key="GridCell.Tab.0.bottom" timestamp="1583313020989">
+    <state width="981" height="361" key="GridCell.Tab.0.bottom" timestamp="1583321654320">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583313020989" />
-    <state width="981" height="361" key="GridCell.Tab.0.center" timestamp="1583313020989">
+    <state width="981" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
+    <state width="981" height="361" key="GridCell.Tab.0.center" timestamp="1583321654320">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583313020989" />
-    <state width="981" height="361" key="GridCell.Tab.0.left" timestamp="1583313020989">
+    <state width="981" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
+    <state width="981" height="361" key="GridCell.Tab.0.left" timestamp="1583321654320">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583313020989" />
-    <state width="981" height="361" key="GridCell.Tab.0.right" timestamp="1583313020989">
+    <state width="981" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
+    <state width="981" height="361" key="GridCell.Tab.0.right" timestamp="1583321654320">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583313020989" />
+    <state width="981" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
+    <state width="981" height="444" key="GridCell.Tab.1.bottom" timestamp="1583314264835">
+      <screen x="-1024" y="0" width="1024" height="1280" />
+    </state>
+    <state width="981" height="444" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583314264835" />
+    <state width="981" height="444" key="GridCell.Tab.1.center" timestamp="1583314264834">
+      <screen x="-1024" y="0" width="1024" height="1280" />
+    </state>
+    <state width="981" height="444" key="GridCell.Tab.1.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583314264834" />
+    <state width="981" height="444" key="GridCell.Tab.1.left" timestamp="1583314264834">
+      <screen x="-1024" y="0" width="1024" height="1280" />
+    </state>
+    <state width="981" height="444" key="GridCell.Tab.1.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583314264834" />
+    <state width="981" height="444" key="GridCell.Tab.1.right" timestamp="1583314264835">
+      <screen x="-1024" y="0" width="1024" height="1280" />
+    </state>
+    <state width="981" height="444" key="GridCell.Tab.1.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583314264835" />
+    <state x="-817" y="463" key="com.intellij.ide.util.TipDialog" timestamp="1583315624815">
+      <screen x="-1024" y="0" width="1024" height="1280" />
+    </state>
+    <state x="-817" y="463" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583315624815" />
     <state x="-920" y="298" key="scopes" timestamp="1583226614221">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>

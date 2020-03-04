@@ -1,10 +1,7 @@
 package com.BonumUrsus.BeforeAdvice;
 
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.After;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,10 +16,13 @@ public class MyAspect {
 
     @Pointcut("execution(public void add*(..))")
     public void pointcutDeclaration(){}
+
     @Pointcut("execution(* get*())")
     public void getter(){}
-    @Pointcut("execution(* set*(..))")
+
+    @Pointcut("execution(* set(..))")
     public void setter(){}
+
     @Pointcut("pointcutDeclaration() && !(getter() || setter())")
     public void combiningPointcuts(){}
 
@@ -40,8 +40,8 @@ public class MyAspect {
         if(args.length > 0)
             log.info("args[0] = " + args[0].toString());
     }
-    @After("pointcutDeclaration()")
-    public void afterAddAccountAdvise(){
-        log.info("(After) My aspect is working!!!");
+    @AfterReturning(pointcut = "getter()", returning = "result")
+    public void afterSetter(JoinPoint joinPoint, String result){
+        log.info("After " +  joinPoint.getSignature() + "Name = " + result);
     }
 }

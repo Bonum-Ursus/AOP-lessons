@@ -12,10 +12,8 @@ public class MainDemoApp {
                 context.getBean("membershipDAO", MembershipDAO.class);
 
         accountDAO.addAccount();
-        accountDAO.setId(1);
-        accountDAO.getId();
-        accountDAO.setName("Name");
-        accountDAO.getName();
+        accountDAO.setName("This is the name of account");
+        System.out.println(accountDAO.getName());
 
         membershipDAO.addCustomer("New Customer added!");
 
