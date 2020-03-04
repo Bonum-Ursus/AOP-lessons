@@ -20,12 +20,14 @@ public class MyAspect {
     public void getter(){}
     @Pointcut("execution(* set*(..))")
     public void setter(){}
+    @Pointcut("pointcutDeclaration() && !(getter() || setter())")
+    public void combiningPointcuts(){}
 
 
 //    @Before("execution(* add*())") ---> for any return type method which starts with "add"
 //    @Before("execution(public void addAccount(*))") ---> for one argument which has any type
 //    @Before("execution(public void addAccount(..))") ---> for 0 to many arguments which has any type
-    @Before("pointcutDeclaration() && !(getter() || setter())") /**/
+    @Before("combiningPointcuts()") /**/
     public void beforeAddAccountAdvise(){
         log.info("(Before) My aspect is working!!!");
     }
