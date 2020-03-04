@@ -10,7 +10,7 @@ public class ExecutableClass {
         TrafficFortuneService tfs =
                 context.getBean("trafficFortuneService", TrafficFortuneService.class);
 
-        System.out.println(tfs.getFortune());
+        System.out.println(tfs.getFortune(false));
 
         context.close();
     }

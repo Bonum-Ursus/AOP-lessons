@@ -26,9 +26,14 @@ public class OneMoreAspect {
 
         log.info("Method: " + proceedingJoinPoint.getSignature());
         long start = System.currentTimeMillis();
-
-        Object result = proceedingJoinPoint.proceed();
-
+        Object result;
+        try {
+            result = proceedingJoinPoint.proceed();
+        }catch (Exception exp){
+            log.error(exp.getMessage());
+            throw exp;
+//            result = "Something goes wrong =(";
+        }
         long finish = System.currentTimeMillis();
 
         long duration = finish - start;

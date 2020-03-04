@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a84d45-5fc9-4cd9-bb02-7b0bafe32dff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/DemoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/ExecutableClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/OneMoreAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/TrafficFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MainDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MainDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/BeforeAdvice/MyAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MainDemoApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MainDemoApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MyAspect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/BeforeAdvice/MyAspect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/ExecutableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/ExecutableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/OneMoreAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/OneMoreAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/TrafficFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/BonumUrsus/AroundAdvice/TrafficFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/AroundAdvice/ExecutableClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/AroundAdvice/ExecutableClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/BonumUrsus/AroundAdvice/TrafficFortuneService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/BonumUrsus/AroundAdvice/TrafficFortuneService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +122,7 @@
       <updated>1583225470739</updated>
       <workItem from="1583225480816" duration="4383000" />
       <workItem from="1583303736614" duration="8206000" />
-      <workItem from="1583315520236" duration="2522000" />
+      <workItem from="1583315520236" duration="3877000" />
     </task>
     <servers />
   </component>
@@ -145,22 +142,22 @@
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
     <state x="-732" y="394" key="FileChooserDialogImpl/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583231781349" />
-    <state width="981" height="361" key="GridCell.Tab.0.bottom" timestamp="1583321654320">
+    <state width="981" height="361" key="GridCell.Tab.0.bottom" timestamp="1583323113768">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
-    <state width="981" height="361" key="GridCell.Tab.0.center" timestamp="1583321654320">
+    <state width="981" height="361" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583323113768" />
+    <state width="981" height="361" key="GridCell.Tab.0.center" timestamp="1583323113768">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
-    <state width="981" height="361" key="GridCell.Tab.0.left" timestamp="1583321654320">
+    <state width="981" height="361" key="GridCell.Tab.0.center/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583323113768" />
+    <state width="981" height="361" key="GridCell.Tab.0.left" timestamp="1583323113768">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
-    <state width="981" height="361" key="GridCell.Tab.0.right" timestamp="1583321654320">
+    <state width="981" height="361" key="GridCell.Tab.0.left/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583323113768" />
+    <state width="981" height="361" key="GridCell.Tab.0.right" timestamp="1583323113768">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
-    <state width="981" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583321654320" />
+    <state width="981" height="361" key="GridCell.Tab.0.right/0.0.1920.1040/-1024.0.1024.1280@-1024.0.1024.1280" timestamp="1583323113768" />
     <state width="981" height="444" key="GridCell.Tab.1.bottom" timestamp="1583314264835">
       <screen x="-1024" y="0" width="1024" height="1280" />
     </state>
