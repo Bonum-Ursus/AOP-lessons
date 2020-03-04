@@ -8,9 +8,10 @@ import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
+
 public class MyAspect {
     public static Logger log = LoggerFactory.getLogger(MyAspect.class.getName());
-    @Before("execution(public void addAccount())")
+    @Before("execution(public void com.BonumUrsus.BeforeAdvice.AccountDAO.addAccount())")
     public void beforeAddAccountAdvise(){
         log.info("My aspect is working!!!");
     }

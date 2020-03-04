@@ -6,10 +6,14 @@ public class MainDemoApp {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context =
                 new AnnotationConfigApplicationContext(DemoConfig.class);
-        AccountDAO accountDAO = context.getBean("accountDAO", AccountDAO.class);
+        AccountDAO accountDAO =
+                context.getBean("accountDAO", AccountDAO.class);
+        MembershipDAO membershipDAO =
+                context.getBean("membershipDAO", MembershipDAO.class);
 
         accountDAO.addAccount();
-        accountDAO.addAccount();
+
+        membershipDAO.addAccount();
 
         context.close();
     }

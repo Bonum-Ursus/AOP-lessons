@@ -3,8 +3,8 @@ package com.BonumUrsus.BeforeAdvice;
 import org.springframework.stereotype.Component;
 
 @Component
-public class AccountDAO {
+public class MembershipDAO {
     public void addAccount(){
-        System.out.println(getClass().getName() + " Account added");
+        System.out.println(MembershipDAO.class.getName() + " Yep! It's working=)");
     }
 }
